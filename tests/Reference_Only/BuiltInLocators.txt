@@ -1,0 +1,30 @@
+Built-in in locators.
+======================
+
+(i)page. getByRole() 
+--------------------
+        to locate by explicit and implicit accessibility attributes.
+
+(ii)page. getByText()
+----------------- 
+        to locate by text content.
+
+(iii)page getByLabel() 
+----------------- 
+        to locate a form control by associated label's text.
+
+(iv)page.getByPlaceholder() 
+----------------- 
+        to locate an input by placeholder.
+
+(v)page-getByAltText() 
+----------------- 
+        to locate an element, usually image, by its text alternative.
+
+(vi)page-getByTitle() 
+----------------- 
+        to locate an element by its title attribute.
+
+(vii)page. getByTestId() 
+----------------- 
+        to locate an element based on its data-testid attribute

@@ -1,0 +1,46 @@
+Assertions
+-------------
+Playwright includes test assertions in the form of expect function
+
+1) expect (page). toHaveURL()               Page has URL
+			expect (page).not.toHaveURL()               Page has not URL
+
+2) expect (page). toHaveTitle()             Page has title
+			expect (page).not.toHaveTitle()             Page has not title
+
+3) expect (locator).toBeVisible()           Element is visible
+			expect (locator).not.toBeVisible()           Element is not visible
+
+4) expect (locator).toBeEnabled()           Element is enabled
+			expect (locator).not.toBeEnabled()           Element is not enabled
+
+5) expect (locator).toBeDisabled()          Element is disabled
+			expect (locator).not.toBeDisabled()          Element is not disabled
+
+5) expect (locator).toBeChecked ()          Radio/Checkbox is checked
+			expect (locator).not.toBeChecked ()          Radio/Checkbox is not checked
+
+6) expect (locator).toHaveAttribute()       Element has attribute
+			expect (locator).not.toHaveAttribute()       Element has not attribute
+
+7) expect (locator).toHaveText()            Element matches text
+			expect (locator).not.toHaveText()            Element doesnot matches text
+
+8) expect (locator).toContainText()         Element contains text
+			expect (locator).not.toContainText()         Element does not contains text
+
+9) expect (locator).toHaveValue (value)     Input has a value
+			expect (locator).not.toHaveValue(value)      Input does not has a value
+
+10)expect (locator).toHaveCount ()          List of elements has given length
+			expect (locator).not.toHaveCount ()          List of elements has not given length
+
+
+
+
+
+
+
+
+
+
